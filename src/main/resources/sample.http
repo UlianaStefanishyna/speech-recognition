@@ -1,0 +1,32 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+ "first_name": "sample1",
+  "last_name": "sample1",
+  "age": 12
+}
+
+###
+
+GET http://localhost:8080/api/users/1
+
+###
+
+PUT http://localhost:8080/api/users/1
+Content-Type: application/json
+
+{
+  "firstName": "AAAA",
+  "lastName": "sample1",
+  "age": 12
+}
+
+###
