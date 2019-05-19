@@ -30,3 +30,7 @@ mvnw.cmd
 
 ### VS Code ###
 .vscode/
+
+
+npm-*.log
+generated/
