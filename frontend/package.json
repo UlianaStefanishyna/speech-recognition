@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "artyom.js": "^1.0.6",
+    "guestbell-forms": "^2.0.57",
     "react": "^16.8.6",
+    "react-advanced-form": "^1.7.1",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
